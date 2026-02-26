@@ -56,13 +56,13 @@ export default function ProductSelectorSection() {
 
     return (
         <section id="checkout-section" className="py-24 px-4 bg-brand-bg relative border-t border-brand-accent/20">
-            <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-12 items-center bg-brand-surface border border-white/5 p-8 md:p-12 relative overflow-hidden">
+            <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-16 items-center bg-brand-surface border border-white/5 p-4 md:p-12 relative overflow-hidden">
 
                 {/* Aesthetic Backgrounds inside the card */}
                 <div className="absolute top-0 right-0 w-64 h-64 bg-brand-accent/5 blur-[100px] rounded-full pointer-events-none" />
 
-                <div className="w-full md:w-1/2 relative z-10 flex flex-col justify-center items-center text-center md:text-left md:items-start">
-                    <div className="w-full max-w-sm mb-8 relative">
+                <div className="w-full lg:w-5/12 relative z-10 flex flex-col justify-center items-center text-center lg:text-left lg:items-start">
+                    <div className="w-full max-w-md mb-8 relative">
                         <div className="absolute inset-0 bg-brand-accent opacity-10 blur-[50px] rounded-full" />
                         <img
                             src={selectedBundle.image}
@@ -72,7 +72,7 @@ export default function ProductSelectorSection() {
                     </div>
                 </div>
 
-                <div className="w-full md:w-1/2 relative z-10">
+                <div className="w-full lg:w-7/12 relative z-10">
                     <h2 className="text-3xl font-heading font-extrabold uppercase mb-2">Creatin HCL 750mg</h2>
                     <div className="flex gap-4 mb-4 text-white/50 text-xs font-mono uppercase border-b border-white/10 pb-4">
                         <div className="flex items-center gap-1"><Shield className="w-4 h-4 text-brand-accent" /> Laborgeprüft</div>

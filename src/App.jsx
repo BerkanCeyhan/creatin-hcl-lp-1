@@ -11,7 +11,7 @@ import StickyCTA from './components/StickyCTA';
 
 export default function App() {
   return (
-    <div className="font-body text-brand-text bg-brand-bg min-h-screen selection:bg-brand-accent selection:text-brand-bg">
+    <div className="font-body text-brand-text bg-brand-bg min-h-screen overflow-x-hidden selection:bg-brand-accent selection:text-brand-bg">
       <main>
         <HeroSection />
         <MechanismSection />
