@@ -42,13 +42,13 @@ export default function HeroSection() {
                         {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-current" />)}
                     </div>
                     <span className="text-sm font-mono text-white/80 uppercase tracking-widest mt-0.5">
-                        Über 1.000+ 5-Sterne Bewertungen
+                        Über 1.200+ 5-Sterne Bewertungen
                     </span>
                 </div>
 
                 {/* Headline (Attention Hook) */}
                 <h1 className="hero-element text-5xl md:text-7xl lg:text-8xl font-heading font-extrabold uppercase leading-[0.85] tracking-tight mb-5 mt-2 md:mb-6 md:mt-8">
-                    <span className="block text-white/50 text-2xl md:text-3xl mb-3 md:mb-4 font-drama tracking-normal normal-case">Creatin ausprobiert — und wieder aufgehört?</span>
+                    <span className="block text-white/50 text-2xl md:text-3xl mb-3 md:mb-4 font-drama tracking-normal normal-case">Creatin ausprobiert... und wieder aufgehört?</span>
                     Verträglichstes<br />
                     <span className="text-brand-accent">Creatin</span> auf dem Markt.
                 </h1>
