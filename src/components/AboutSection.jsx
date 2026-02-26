@@ -77,7 +77,7 @@ export default function AboutSection() {
                             BrustBizeps ist aus der Überzeugung entstanden, dass es besser geht. Keine Füllstoffe, keine Kompromisse — nur das, was wirklich wirkt.
                         </p>
                         <p className="pl-4 border-l-2 border-brand-accent text-white italic">
-                            Creatin HCL war unser erstes Produkt. Nicht zufällig.<br />
+                            Creatin HCL war eins unserer ersten Produkte. Nicht zufällig.<br />
                             <span className="text-sm font-mono uppercase not-italic text-brand-accent mt-2 block">— Fatmir Adzaj, Gründer BrustBizeps</span>
                         </p>
                     </div>

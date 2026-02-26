@@ -37,7 +37,7 @@ export default function GuaranteeSection() {
 
                 <p className="text-white/70 text-lg md:text-xl font-body max-w-2xl mx-auto leading-relaxed mb-8">
                     Wir wissen, dass du vielleicht schon enttäuschende Erfahrungen mit Creatin gemacht hast. Deshalb trägst du bei uns kein Risiko. <br /><br />
-                    Teste BrustBizeps HCL für volle 30 Tage. Wenn dein Magen auch nur einen einzigen schlechten Tag hat — oder du keine Verbesserung spürst — <strong>bekommst du jeden Cent zurück</strong>. <br />Ohne Diskussion. Ohne Formulare.
+                    Teste BrustBizeps HCL für volle 30 Tage. Wenn dein Magen auch nur einen einzigen schlechten Tag hat... keine Verbesserung spürst...  <strong>bekommst du jeden Cent zurück</strong>. <br />Ohne Diskussion. Ohne Formulare.
                 </p>
 
                 <button
