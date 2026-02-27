@@ -8,7 +8,7 @@ export default function IngredientsSection() {
                 <div className="w-full lg:w-1/2 relative perspective-1000">
                     <div className="absolute inset-0 bg-brand-accent/20 blur-[100px] rounded-full" />
                     <img
-                        src="https://images.unsplash.com/photo-1579722820308-d74e571900a9?q=80&w=1470&auto=format&fit=crop"
+                        src="/einnahme.png"
                         alt="Clinical Laboratory"
                         className="w-full h-auto aspect-[4/3] object-cover grayscale contrast-125 border border-white/10 rounded-xl relative z-10"
                     />
@@ -30,10 +30,20 @@ export default function IngredientsSection() {
                         <div className="pb-6 border-b border-white/10">
                             <div className="flex justify-between items-end mb-2">
                                 <h3 className="text-xl font-drama uppercase text-white">Creatin HCL</h3>
-                                <span className="font-mono text-brand-accent">750mg</span>
+                                <span className="font-mono text-brand-accent">1000mg</span>
                             </div>
                             <p className="text-white/60 text-sm leading-relaxed">
-                                Reines Creatin-Hydrochlorid in hochdosierter Kapselform. Keine gepantschten Pulver-Mischungen. Jede BrustBizeps Kapsel liefert exakt 750mg HCL.
+                                Reines Creatin-Hydrochlorid in hochdosierter Kapselform. Keine gepantschten Pulver-Mischungen. Jede BrustBizeps Kapsel liefert exakt 1000mg HCL.
+                            </p>
+                        </div>
+
+                        <div className="pb-6 border-b border-white/10">
+                            <div className="flex justify-between items-end mb-2">
+                                <h3 className="text-xl font-drama uppercase text-white">Vitamin B6 & B12</h3>
+                                <span className="font-mono text-brand-accent">Komplex</span>
+                            </div>
+                            <p className="text-white/60 text-sm leading-relaxed">
+                                Bonus-Wirkstoffe zur Unterstützung der Regeneration und effektiven Verringerung von Müdigkeit.
                             </p>
                         </div>
 
@@ -54,6 +64,32 @@ export default function IngredientsSection() {
 
                     <div className="mt-8 p-4 bg-brand-accent/10 border border-brand-accent/30 rounded text-sm text-white/80 font-mono">
                         &gt; Frei von Magnesiumstearat. Vegan. Keine unnötigen Trennmittel.
+                    </div>
+
+                    {/* Dosing Information Block */}
+                    <div className="mt-12 bg-white/5 border border-white/10 p-6 md:p-8">
+                        <h3 className="text-2xl font-drama uppercase text-white mb-4">Anwendung & Dosierung</h3>
+                        <p className="text-white/60 mb-8 font-medium">
+                            Mit einer Dose (140 Kapseln) kommst du bei der empfohlenen Dosis von 4 Kapseln pro Tag <strong className="text-white">exakt 35 Tage</strong> aus.
+                        </p>
+
+                        <div className="space-y-4">
+                            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-brand-bg border border-white/5 relative overflow-hidden group">
+                                <div className="absolute left-0 top-0 bottom-0 w-1 bg-brand-accent" />
+                                <div className="pl-2">
+                                    <span className="font-mono text-brand-accent text-xs block mb-1">TRAININGSTAG</span>
+                                    <span className="text-white font-bold">4 Kapseln vor dem Sport</span>
+                                </div>
+                                <span className="text-white/60 text-sm sm:text-right font-medium">Maximale Kraft & Fokus</span>
+                            </div>
+                            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 bg-brand-bg border border-white/5 relative">
+                                <div className="pl-3">
+                                    <span className="font-mono text-white/50 text-xs block mb-1">RUHETAG</span>
+                                    <span className="text-white">2 Kapseln morgens / 2 abends</span>
+                                </div>
+                                <span className="text-white/60 text-sm sm:text-right font-medium">Konstante Nährstoffzufuhr</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

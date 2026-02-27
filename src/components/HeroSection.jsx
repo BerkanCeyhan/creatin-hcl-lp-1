@@ -72,7 +72,7 @@ export default function HeroSection() {
                 {/* Subheadline (Body Text) */}
                 <p className="hero-element text-lg md:text-xl text-white/70 max-w-2xl mb-10 font-medium leading-relaxed">
                     Das Problem ist nicht dein Körper. Es ist das falsche Creatin.<br /><br />
-                    BrustBizeps <strong className="text-white font-bold">Creatin HCL (750mg)</strong> liefert dir die volle Wirkung — ohne Blähbauch, ohne aufgedunsenes Gesicht, ohne Wassereinlagerungen unter der Haut.
+                    BrustBizeps <strong className="text-white font-bold">Creatin HCL (1000mg)</strong> liefert dir die volle Wirkung — ohne Blähbauch, ohne aufgedunsenes Gesicht, ohne Wassereinlagerungen unter der Haut.
                 </p>
 
                 {/* CTA */}
@@ -107,7 +107,7 @@ export default function HeroSection() {
                     />
                     {/* Aesthetic brutalist tape/label */}
                     <div className="absolute top-4 -right-4 bg-brand-bg text-brand-accent font-mono text-xs p-2 border border-brand-accent/30 rotate-12 z-20 shadow-xl uppercase">
-                        HCL 750mg Focus
+                        HCL 1000mg Focus
                     </div>
                 </div>
             </div>

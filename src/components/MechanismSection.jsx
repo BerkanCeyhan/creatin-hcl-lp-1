@@ -8,15 +8,15 @@ gsap.registerPlugin(ScrollTrigger);
 const features = [
     {
         icon: Droplets,
-        title: "100% Wasserlöslich",
+        title: "59x Bessere Löslichkeit",
         subtitle: "Kein Magen-Chaos",
-        description: "Normale Creatin-Kristalle lösen sich schlecht auf. Sie bleiben im Magen liegen, ziehen Wasser an — und das verursacht Blähungen und Durchfall. HCL löst sich vollständig auf. Dein Körper nimmt es auf, noch bevor dein Magen reagiert."
+        description: "Normale Creatin-Kristalle lösen sich schlecht auf. Sie bleiben im Magen liegen, ziehen Wasser an — und das verursacht Blähungen und Durchfall. HCL bietet eine 59x bessere Löslichkeit und löst sich vollständig auf. Dein Körper nimmt es auf, noch bevor dein Magen reagiert."
     },
     {
         icon: Zap,
         title: "Mikro-Dosierung, Makro-Wirkung",
         subtitle: "",
-        description: "Keine 5g Ladephase mehr. 750mg reines HCL wirken direkt und gehen sofort in die Muskulatur — ohne den Umweg über Wassereinlagerungen unter der Haut. Weniger Menge, weil mehr davon wirklich ankommt."
+        description: "Keine 5g Ladephase mehr. 1000mg reines HCL wirken direkt und gehen sofort in die Muskulatur — ohne den Umweg über Wassereinlagerungen unter der Haut. Weniger Menge, weil mehr davon wirklich ankommt."
     },
     {
         icon: Brain,
@@ -118,7 +118,7 @@ export default function MechanismSection() {
                             </div>
                             <div>
                                 <div className="flex justify-between mb-1">
-                                    <span className="text-brand-accent">HCL (750mg)</span>
+                                    <span className="text-brand-accent">HCL (1000mg)</span>
                                     <span className="text-brand-accent">&gt; Direkte Zell-Aufnahme</span>
                                 </div>
                                 <div className="w-full h-2 bg-brand-surface relative overflow-hidden">

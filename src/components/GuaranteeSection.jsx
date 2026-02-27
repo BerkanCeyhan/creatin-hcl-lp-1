@@ -15,11 +15,11 @@ export default function GuaranteeSection() {
                 </div>
             </div>
 
-            {/* BOTTOM BAR: 30 Tage Geld Zurück */}
+            {/* BOTTOM BAR: Quality/Lab Tested */}
             <div className="absolute bottom-12 left-1/2 w-[110vw] -translate-x-1/2 h-14 bg-white text-brand-bg font-drama text-2xl uppercase tracking-widest flex items-center rotate-2 z-10 overflow-hidden shadow-2xl border-y border-white/50">
                 <div className="flex whitespace-nowrap animate-[marquee_20s_linear_infinite_reverse]">
                     {[...Array(20)].map((_, i) => (
-                        <span key={`white-${i}`} className="mx-4">30 TAGE GELD ZURÜCK GARANTIE.</span>
+                        <span key={`white-${i}`} className="mx-4">100% REINHEIT. LABOR-GEPRÜFT.</span>
                     ))}
                 </div>
             </div>
@@ -32,25 +32,25 @@ export default function GuaranteeSection() {
                 </div>
 
                 <h2 className="text-3xl md:text-5xl font-heading font-extrabold uppercase mb-6 text-white tracking-tight">
-                    30 Tage. <span className="text-brand-accent">Kein Risiko.</span><br />Kein Bullshit.
+                    100% Reinheit. <br /><span className="text-brand-accent">Keine Kompromisse.</span><br />Kein Bullshit.
                 </h2>
 
                 <p className="text-white/70 text-lg md:text-xl font-body max-w-2xl mx-auto leading-relaxed mb-8">
-                    Wir wissen, dass du vielleicht schon enttäuschende Erfahrungen mit Creatin gemacht hast. Deshalb trägst du bei uns kein Risiko. <br /><br />
-                    Teste BrustBizeps HCL für volle 30 Tage. Wenn dein Magen auch nur einen einzigen schlechten Tag hat... keine Verbesserung spürst...  <strong>bekommst du jeden Cent zurück</strong>. <br />Ohne Diskussion. Ohne Formulare.
+                    Wir wissen, dass du vielleicht schon enttäuschende Erfahrungen mit Creatin gemacht hast. Deshalb setzen wir auf reine Qualität ohne Kompromisse. <br /><br />
+                    BrustBizeps HCL wird <strong className="text-white font-bold">streng kontrolliert</strong> und liefert dir exakt das, was dein Körper braucht. Keine versteckten Füllstoffe, keine Magenprobleme, nur pure Leistung. Du bekommst ein Supplement, das von Tag eins an für dich arbeitet.
                 </p>
 
                 <button
                     onClick={() => document.getElementById('checkout-section')?.scrollIntoView({ behavior: 'smooth' })}
                     className="bg-brand-accent text-brand-bg px-8 py-4 font-drama uppercase tracking-wider text-lg hover:bg-white transition-colors duration-300 transform hover:scale-[1.02] mb-8"
                 >
-                    JETZT RISIKOFREI BESTELLEN
+                    JETZT VORRAT SICHERN
                 </button>
 
                 <br />
 
                 <div className="inline-block p-4 bg-brand-bg border border-white/5 font-mono text-xs text-white/50 uppercase tracking-widest">
-                    STATUS: GARANTIE_AKTIV / SYSTEM_GESICHERT
+                    STATUS: PREMIUM_QUALITÄT / LABOR_ZERTIFIZIERT
                 </div>
 
             </div>

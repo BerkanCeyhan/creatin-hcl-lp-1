@@ -7,7 +7,7 @@ const OBJECTIONS = [
         answer: "Ja. Das Kernproblem bei Monohydrat ist die schlechte Löslichkeit — es bleibt im Magen liegen und zieht dort Wasser an. Das verursacht Blähungen, Völlegefühl und manchmal Durchfall. Creatin HCL löst sich komplett auf und wird aufgenommen, bevor es im Magen für Probleme sorgen kann. Der Unterschied ist für viele Menschen von Tag eins spürbar."
     },
     {
-        question: "Warum nur 750mg pro Kapsel, wenn ich sonst 5g Mono brauche?",
+        question: "Warum nur 1000mg pro Kapsel, wenn ich sonst 5g Mono brauche?",
         answer: "Weil HCL deutlich besser vom Körper aufgenommen wird. Du brauchst weniger, weil mehr davon tatsächlich in der Muskulatur ankommt — ohne den Umweg über den Verdauungstrakt. Das bedeutet weniger Belastung für den Magen und trotzdem die volle Wirkung."
     },
     {

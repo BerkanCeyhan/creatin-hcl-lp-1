@@ -41,14 +41,14 @@ export default function StickyCTA() {
                 <div className="flex items-center gap-3">
                     <img
                         src="/produkt-bild.png"
-                        alt="Creatin HCL 750mg"
+                        alt="Creatin HCL 1000mg"
                         className="w-10 h-10 md:w-12 md:h-12 object-contain mix-blend-luminosity rounded-sm shrink-0 bg-brand-bg/50 border border-brand-accent/20 p-1"
                     />
 
                     {/* Desktop Text */}
                     <div className="hidden md:flex flex-col">
                         <div className="font-heading font-bold uppercase text-white tracking-wide text-lg leading-none mb-1">
-                            Creatin HCL (750mg)
+                            Creatin HCL (1000mg)
                         </div>
                         <div className="flex items-center gap-2">
                             <div className="flex text-brand-accent">
@@ -63,7 +63,7 @@ export default function StickyCTA() {
                         <div className="flex text-brand-accent mb-0.5">
                             {[...Array(5)].map((_, i) => <Star key={i} className="w-2.5 h-2.5 fill-current" />)}
                         </div>
-                        <span className="text-white font-heading font-bold uppercase text-xs leading-none">HCL 750mg</span>
+                        <span className="text-white font-heading font-bold uppercase text-xs leading-none">HCL 1000mg</span>
                     </div>
                 </div>
 

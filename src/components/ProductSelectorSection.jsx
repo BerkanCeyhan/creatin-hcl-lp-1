@@ -11,7 +11,7 @@ const BUNDLES = [
         subtitle: 'Der Einstieg',
         qty: 1,
         price: '35,90€',
-        pricePerPortion: '0,60€ / Kapsel',
+        pricePerPortion: '1,02€ / Tagesdosis',
         discountCode: '',
         popular: false,
         image: '/produkt-bild.png',
@@ -23,7 +23,7 @@ const BUNDLES = [
         subtitle: 'Voller Fokus',
         qty: 2,
         price: '58,16€',
-        pricePerPortion: '0,48€ / Kapsel',
+        pricePerPortion: '0,83€ / Tagesdosis',
         discountCode: 'HCL-BUNDLE-2',
         popular: true,
         image: '/bundle-2.png',
@@ -35,7 +35,7 @@ const BUNDLES = [
         subtitle: 'Maximaler Vorrat',
         qty: 3,
         price: '81,87€',
-        pricePerPortion: '0,45€ / Kapsel',
+        pricePerPortion: '0,77€ / Tagesdosis',
         discountCode: 'HCL-BUNDLE-3',
         popular: false,
         image: '/bundle-3.png',
@@ -66,19 +66,19 @@ export default function ProductSelectorSection() {
                         <div className="absolute inset-0 bg-brand-accent opacity-10 blur-[50px] rounded-full" />
                         <img
                             src={selectedBundle.image}
-                            alt="Creatin HCL 750mg"
+                            alt="Creatin HCL 1000mg"
                             className="w-full h-auto object-contain aspect-[4/5] md:aspect-square border border-white/10 rounded-xl mix-blend-luminosity brightness-90 relative z-10 shadow-2xl transition-all duration-500"
                         />
                     </div>
                 </div>
 
                 <div className="w-full lg:w-7/12 relative z-10">
-                    <h2 className="text-3xl font-heading font-extrabold uppercase mb-2">Creatin HCL 750mg</h2>
+                    <h2 className="text-3xl font-heading font-extrabold uppercase mb-2">Creatin HCL 1000mg</h2>
                     <div className="flex gap-4 mb-4 text-white/50 text-xs font-mono uppercase border-b border-white/10 pb-4">
                         <div className="flex items-center gap-1"><Shield className="w-4 h-4 text-brand-accent" /> Laborgeprüft</div>
                         <div className="flex items-center gap-1"><Zap className="w-4 h-4 text-brand-accent" /> Hochdosiert</div>
                     </div>
-                    <p className="text-white/60 mb-8 font-medium">Wähle deinen Vorrat. Bündel-Käufe sichern dir den besten Preis pro Kapsel.</p>
+                    <p className="text-white/60 mb-8 font-medium">Wähle deinen Vorrat. Bündel-Käufe sichern dir den besten Preis pro Tagesdosis.</p>
 
                     <div className="flex flex-col gap-4 mb-8">
                         {BUNDLES.map((bundle) => {
@@ -139,7 +139,7 @@ export default function ProductSelectorSection() {
                     {/* Trust bar small */}
                     <div className="flex items-center justify-center gap-6 mt-6 text-[10px] font-mono uppercase text-white/40">
                         <span className="flex items-center gap-1"><Box className="w-3 h-3 text-white/30" /> Kostenloser Versand ab 60€</span>
-                        <span className="flex items-center gap-1"><Shield className="w-3 h-3 text-white/30" /> 30-Tage Garantie</span>
+                        <span className="flex items-center gap-1"><Shield className="w-3 h-3 text-white/30" /> Sichere Bezahlung</span>
                     </div>
                 </div>
 
